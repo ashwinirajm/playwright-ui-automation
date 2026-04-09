@@ -25,6 +25,7 @@ playwright-ui-automation/
 │
 ├── utils/
     └── config.py
+```
 
 ## Features
 - Page Object Model (POM)

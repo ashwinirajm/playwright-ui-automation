@@ -10,6 +10,22 @@ The framework follows the Page Object Model (POM) design pattern to ensure scala
 - Playwright
 - Allure Reports
 
+## Project Structure
+```
+playwright-ui-automation/
+│
+├── pages/
+│   ├── cart_page.py
+│   ├── checkout_page.py
+│   ├── inventory_page.py
+│   └── login_page.py
+│
+├── tests/
+│   └── test_e2e_flow.py
+│
+├── utils/
+    └── config.py
+
 ## Features
 - Page Object Model (POM)
 - Fixtures for setup
